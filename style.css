@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: auto;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh ;
+    background-image: linear-gradient(rgba(0,0,0,0,7),rgba(0,0,0,0,7));
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    width: 50%;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+/*design for nav menu link*/
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+/*
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px ;
+
+}
+   
+nav ul li a {
+   
+    color: #000;
+   
+} */
+
+.nav-list {
+    list-style-type: none; /* Get rid of the bullets */
+    padding: 0; /* Remove padding on the <ul> */
+    margin-left: 60px ;
+}
+
+.nav-list li {
+    display: inline-block; /* Arrange the <li>s next to each other horizontally */
+    margin-right: 10px; /* Optional: Add space between the list items */
+    margin-right: 0.5em; /* Add right margin of 0.5em to the <li>s */
+}
+.nav-list li a {
+     text-decoration: none; /* removes under-lines from menu titles*/
+      font-size: 13px;
+}

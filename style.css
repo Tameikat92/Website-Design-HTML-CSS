@@ -96,11 +96,24 @@ p,h1{
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-    background-image: url(desert.jpg);
     background-position: center;
     background-size: cover;
-
-   
    flex-direction: column;
-   
+   transition: 0.5s ;
+ }
+ .card1{
+    background-image: url(desert.jpg);
+ }
+ .card2{
+    background-image: url(grand\ canyon.jpg);
+ }
+ .card3{
+    background-image: url(kalahari.jpg);
+ }
+ .card4{
+    background-image: url(yellowstone.jpg);
+ }
+ .card:hover{
+    transform: translateY(-10px);
+
  }

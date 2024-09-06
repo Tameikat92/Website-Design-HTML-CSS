@@ -1,15 +1,21 @@
+/* star is the entire page*/
 *{
     margin: 0;
     padding: auto;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;  
+}
+
+body{
+    background-image: url(giza.jpg); /* where to place background image*/
+      background-image: linear-gradient(rgba(0,0,0,0,7),rgba(0,0,0,0,7));
+    background-position: center;
+    background-size: cover;
 }
 
 .container{
     width: 100%;
     height: 100vh ;
-    background-image: linear-gradient(rgba(0,0,0,0,7),rgba(0,0,0,0,7));
-    background-position: center;
-    background-size: cover;
+  
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
@@ -35,19 +41,6 @@ nav{
     text-align: right;
 
 }
-/*
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 60px ;
-
-}
-   
-nav ul li a {
-   
-    color: #000;
-   
-} */
 
 .nav-list {
     list-style-type: none; /* Get rid of the bullets */
@@ -63,4 +56,17 @@ nav ul li a {
 .nav-list li a {
      text-decoration: none; /* removes under-lines from menu titles*/
       font-size: 13px;
+      color: #fff;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+   flex-basis: 50%;
+}
+
+p,h1{
+    color: #fff;
 }
